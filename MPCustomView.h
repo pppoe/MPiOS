@@ -18,6 +18,6 @@
 
 @interface MPCustomView : UIView
 
-@property (nonatomic) id<MPCustomViewDelegate> delegate;
+@property (nonatomic, assign) id<MPCustomViewDelegate> delegate;
 
 @end

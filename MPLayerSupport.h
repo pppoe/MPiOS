@@ -16,6 +16,6 @@
 
 @interface MPLayerSupport : NSObject
 
-@property (nonatomic) id layerDelegate;
+@property (nonatomic, strong) id layerDelegate;
 
 @end
